@@ -1,0 +1,27 @@
+class Config:
+    ### GCP 설정
+    project_id = "project_id"
+    credentials_path = "credentials_path"
+
+    ### Pub/Sub 설정
+    pubsub_topic_id = "pubsub_topic_id"
+    pubsub_subscription_id = "pubsub_subscription_id"
+
+    max_messages = 10000
+
+    ### Dataflow 배포시 설정
+    dataflow_region = "dataflow_region"
+    dataflow_temp_location = "dataflow_temp_location"
+    dataflow_staging_location = "dataflow_staging_location"
+
+    ### BigQuery 설정
+    bq_dataset = "bq_dataset"
+    bq_table_name = "bq_table_name"
+    bq_table_scheme = "bq_table_scheme"
+
+    ### Twitter API 설정
+    twitter_api_key = "twitter_api_key"
+    twitter_api_secret_key = "twitter_api_secret_key"
+    twitter_bearer_token = "twitter_bearer_token"
+    twitter_access_token = "twitter_access_token"
+    twitter_access_token_secret = "twitter_access_token_secret"
